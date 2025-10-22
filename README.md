@@ -38,7 +38,7 @@ A real-time emotion detection system that recommends personalized music based on
 ```bash
 git clone https://github.com/yourusername/emotion-music-system.git
 cd emotion-music-system
-
+```
 Create virtual environment (optional but recommended)
 
 bash
