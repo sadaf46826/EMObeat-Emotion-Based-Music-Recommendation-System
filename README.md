@@ -2,11 +2,6 @@
 
 A real-time emotion detection system that recommends personalized music based on your facial expressions using AI and webcam technology.
 
-![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=Streamlit&logoColor=white)
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?style=for-the-badge&logo=OpenCV&logoColor=white)
-![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white)
-
 ## 🌟 Features
 
 ### 🎭 Real-time Emotion Detection
@@ -39,68 +34,71 @@ A real-time emotion detection system that recommends personalized music based on
 git clone https://github.com/yourusername/emotion-music-system.git
 cd emotion-music-system
 ```
-Create virtual environment (optional but recommended)
+## Create virtual environment (optional but recommended)
 
-bash
+```bash
 python -m venv venv
 source venv/bin/activate  # On Windows: venv\Scripts\activate
-Install dependencies
+```
 
-bash
+## Install dependencies
+
+```bash
 pip install -r requirements.txt
-Set up environment variables
+```
 
-Create a .env file in the root directory
+## Set up environment variables
 
-Add your YouTube Data API v3 key:
+-Create a .env file in the root directory
+-Add your YouTube Data API v3 key:
 
-env
+```bash
 YOUTUBE_API_KEY=your_youtube_api_key_here
-🔑 Getting YouTube API Key
-Go to Google Cloud Console
+```
 
-Create a new project or select existing one
+## 🔑 Getting YouTube API Key
+-Go to Google Cloud Console
+-Create a new project or select existing one
+-Enable YouTube Data API v3
+-Create credentials (API Key)
+-Copy the key to your .env file
 
-Enable YouTube Data API v3
-
-Create credentials (API Key)
-
-Copy the key to your .env file
-
-🎮 Usage
+## 🎮 Usage
 Run the application
 
-bash
+```bash
 streamlit run emotion_music_system.py
-Access the web interface
+```
+
+## Access the web interface
 
 Open your browser to http://localhost:8501
 
-Setup Profile
+## Setup Profile
 
-Fill in your name, age, gender
+-Fill in your name, age, gender
 
-Select preferred music language and genres from 25+ options
+-Select preferred music language and genres from 25+ options
 
-Save your profile
+-Save your profile
 
-Emotion Detection
+## Emotion Detection
 
-Click "Start Webcam" to begin real-time emotion analysis
+-Click "Start Webcam" to begin real-time emotion analysis
 
-Allow camera permissions when prompted
+-Allow camera permissions when prompted
 
-View real-time emotion detection with confidence scores
+-View real-time emotion detection with confidence scores
 
-Get Recommendations
+## Get Recommendations
 
-Click "Stop Webcam" when ready
+-Click "Stop Webcam" when ready
 
-Click "Recommend Songs" for personalized music based on detected emotion
+-Click "Recommend Songs" for personalized music based on detected emotion
 
-Watch embedded YouTube videos directly in the app
+-Watch embedded YouTube videos directly in the app
 
-📁 Project Structure
+## 📁 Project Structure
 text
 emotion-music-system/
 ├── emotion_music_system.py  # Main application
@@ -108,7 +106,7 @@ emotion-music-system/
 ├── .env                    # Environment variables (create this)
 ├── users.csv               # User data (auto-generated)
 └── README.md              # Project documentation
-🛠️ Technologies Used
+## 🛠️ Technologies Used
 Frontend: Streamlit
 
 Emotion Detection: FER (Facial Emotion Recognition) + MTCNN
