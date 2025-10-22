@@ -50,6 +50,7 @@ pip install -r requirements.txt
 ## Set up environment variables
 
 -Create a .env file in the root directory
+
 -Add your YouTube Data API v3 key:
 
 ```bash
@@ -58,12 +59,17 @@ YOUTUBE_API_KEY=your_youtube_api_key_here
 
 ## 🔑 Getting YouTube API Key
 -Go to Google Cloud Console
+
 -Create a new project or select existing one
+
 -Enable YouTube Data API v3
+
 -Create credentials (API Key)
+
 -Copy the key to your .env file
 
 ## 🎮 Usage
+
 Run the application
 
 ```bash
@@ -99,13 +105,13 @@ Open your browser to http://localhost:8501
 -Watch embedded YouTube videos directly in the app
 
 ## 📁 Project Structure
-text
-emotion-music-system/
-├── emotion_music_system.py  # Main application
-├── requirements.txt         # Dependencies
-├── .env                    # Environment variables (create this)
-├── users.csv               # User data (auto-generated)
-└── README.md              # Project documentation
+
+emotion-music-system/<br>
+├── emotion_music_system.py  # Main application<br>
+├── requirements.txt         # Dependencies<br>
+├── .env                    # Environment variables (create this)<br>
+├── users.csv               # User data (auto-generated)<br>
+└── README.md              # Project documentation<br>
 ## 🛠️ Technologies Used
 Frontend: Streamlit
 
