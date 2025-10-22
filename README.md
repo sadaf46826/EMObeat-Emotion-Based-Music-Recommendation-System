@@ -113,6 +113,7 @@ emotion-music-system/<br>
 ├── users.csv               # User data (auto-generated)<br>
 └── README.md              # Project documentation<br>
 ## 🛠️ Technologies Used
+
 Frontend: Streamlit
 
 Emotion Detection: FER (Facial Emotion Recognition) + MTCNN
@@ -129,7 +130,8 @@ Music API: YouTube Data API v3
 
 Data Storage: CSV files
 
-🎯 How It Works
+## 🎯 How It Works
+
 Face Detection: MTCNN detects faces in webcam feed
 
 Emotion Analysis: FER model analyzes facial expressions using deep learning
@@ -142,7 +144,8 @@ Personalization: Filters results based on user genre and language preferences
 
 Recommendation: Displays embedded YouTube music videos with metadata
 
-📊 Supported Emotions & Music Mapping
+## 📊 Supported Emotions & Music Mapping
+
 Emotion	Music Keywords	Example Genres
 😊 Happy	upbeat, joyful, dance	Pop, Party, Dance, Punjabi
 😢 Sad	melancholic, emotional, heartbreak	Acoustic, Romantic Chill, Healing
@@ -151,7 +154,8 @@ Emotion	Music Keywords	Example Genres
 😨 Fear	calm, soothing, peaceful	Sleep, Calm, Instrumental, Spiritual
 🤢 Disgust	empowering, strong, confident	Rap Battles, Freestyle, Anthems
 😐 Neutral	chill, background, relaxing	Study, Focus, Ambient, Late Night
-🎵 Available Genres (25+ Options)
+
+## 🎵 Available Genres (25+ Options)
 Regional: Bollywood, Punjabi, Bhojpuri, Marathi
 
 International: Pop, K-Pop, Hip-Hop/Rap, Acoustic
@@ -164,7 +168,7 @@ Situational: Rainy Day, Sleep/Calm, Morning Vibes, Late Night
 
 Cultural: Sufi/Qawwali, Spiritual/Devotional, Instrumental
 
-🤝 Contributing
+## 🤝 Contributing
 Fork the project
 
 Create your feature branch (git checkout -b feature/AmazingFeature)
@@ -174,69 +178,3 @@ Commit your changes (git commit -m 'Add some AmazingFeature')
 Push to the branch (git push origin feature/AmazingFeature)
 
 Open a Pull Request
-
-📝 License
-This project is licensed under the MIT License - see the LICENSE file for details.
-
-⚠️ Important Notes
-Webcam Required: Ensure good lighting for accurate emotion detection
-
-API Limits: YouTube Data API has daily quota limits (10,000 units/day)
-
-Privacy: All processing happens locally; no video data is stored or transmitted
-
-Browser Permissions: Allow camera access when prompted by your browser
-
-🆘 Troubleshooting
-Webcam not working?
-
-Check browser permissions
-
-Ensure no other app is using the camera
-
-Try refreshing the page
-
-Verify camera drivers are updated
-
-No songs found?
-
-Check your YouTube API key in .env file
-
-Verify internet connection
-
-Try different genres or emotions
-
-Check YouTube API quota usage
-
-Installation issues?
-
-Use Python 3.8+
-
-Ensure all dependencies are installed from requirements.txt
-
-Create and activate virtual environment
-
-On Windows, you might need Microsoft Visual C++ Build Tools
-
-Emotion detection inaccurate?
-
-Ensure good lighting on your face
-
-Position face clearly in camera view
-
-Remove glasses or accessories that might obstruct facial features
-
-Try in a well-lit environment
-
-🔧 Technical Details
-Emotion Model: Uses FER with MTCNN face detection
-
-Frame Processing: Processes every 2nd frame for performance
-
-Smoothing: Uses 15-frame history for stable emotion detection
-
-Confidence Threshold: 40% minimum confidence for emotion classification
-
-Real-time Performance: Optimized for 30 FPS webcam feeds
-
-Made with ❤️ using Streamlit, TensorFlow, and Computer Vision
