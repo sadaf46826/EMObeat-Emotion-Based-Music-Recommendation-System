@@ -235,3 +235,4 @@ Confidence Threshold: 40% minimum confidence for emotion classification
 
 Real-time Performance: Optimized for 30 FPS webcam feeds
 
+Made with ❤️ using Streamlit, TensorFlow, and Computer Vision
